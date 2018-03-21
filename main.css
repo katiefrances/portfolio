@@ -1,0 +1,53 @@
+
+
+.container-fluid {
+    
+}
+.section-one {
+    /* background: url("header-img.jpg") no-repeat scroll 0px 100% / cover transparent; */
+    background: pink;
+    height: 100%;
+    min-height: cover;
+}
+
+.section-two {
+    background: violet;
+    padding: 20px;
+    color: white;
+}
+
+.user-section {
+    background: brown;
+}
+
+.usr-img {
+    padding: 20px;
+}
+ 
+.usr-img img {
+    border-radius: 50px;
+    max-width: 100px;
+}
+
+.usr-desc {
+
+    padding-top: 20px;
+}
+
+.languages {
+    background: blueviolet;
+    padding: 20px;
+}
+
+.section-two {
+    background: teal;
+    height: 100%;
+    min-height: cover;
+}
+
+.section-three {
+    background: url("img-2.jpg") no-repeat scroll 0px 100% / cover transparent;
+    height: 100%;
+    min-height: cover;
+}
+
