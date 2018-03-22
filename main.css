@@ -6,17 +6,18 @@ body {
     font-weight: light;
 }
 
+a, a:link, a:active {
+    color: #14CC3F;
+}
+
 .nav {
     background: red;
 }
 
 
 .row {
-    padding: 20px;
+    padding:20px;
 }
-
-
-
 
 .lead {
     display: inline-block;
@@ -27,14 +28,12 @@ body {
 }
 
 .one {
-
-    /* background-image: url(header-img.jpg);
+    background-image: url(img-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh;
-    background-position: center center;  */
     height: 100vh;
-    background: black;
+    background-position: center center; 
+    /* background: #FFFCF7; */
 
 }
 
@@ -88,7 +87,7 @@ body {
 
 
 .three {
-    background:red;
+    background: #14CC3F;
     /* min-height: 100vh; */
 }
 
