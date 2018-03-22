@@ -1,53 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
-.container-fluid {
-    
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
 }
-.section-one {
-    /* background: url("header-img.jpg") no-repeat scroll 0px 100% / cover transparent; */
+
+.nav {
+    background: red;
+}
+
+
+.row {
+    padding: 20px;
+}
+
+
+
+
+.lead {
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 80%;
+    padding: 20px;
+
+}
+
+.one {
+
+    /* background-image: url(header-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh;
+    background-position: center center;  */
+    height: 100vh;
+    background: black;
+
+}
+
+.one h1 {
+    margin: auto;
+}
+
+.two {
     background: pink;
-    height: 100%;
-    min-height: cover;
+    min-height: 30%;
+    text-align: left;
+    vertical-align: middle;
 }
 
-.section-two {
-    background: violet;
-    padding: 20px;
-    color: white;
+.two img {
+    max-width: 150px;
+    border-radius: 75px;
 }
 
-.user-section {
-    background: brown;
+@media only screen and (min-width: 768px) {
+    .two {
+        background-color: green;
+    }
+    .two .lead {
+        background:orange;
+        /* padding: 30px; */
+    }
+
 }
 
-.usr-img {
-    padding: 20px;
-}
- 
-.usr-img img {
-    border-radius: 50px;
-    max-width: 100px;
+/* @media only screen and (max-width: 800px) {
+    .two .lead {
+        background: red;
+        padding: 30px;
+
+    }
+} */
+
+@media only screen and (min-width: 50px) and (max-width: 768px) {
+
+    .usr-img {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .two .lead {
+        background:orange;
+        padding: 30px;
+    }
 }
 
-.usr-desc {
 
-    padding-top: 20px;
+.three {
+    background:red;
+    /* min-height: 100vh; */
 }
 
 .languages {
-    background: blueviolet;
-    padding: 20px;
+    background: aqua;
 }
 
-.section-two {
-    background: teal;
-    height: 100%;
-    min-height: cover;
-}
 
-.section-three {
-    background: url("img-2.jpg") no-repeat scroll 0px 100% / cover transparent;
-    height: 100%;
-    min-height: cover;
+.footer {
+    background: #111;
+    padding: 50px;
 }
-
