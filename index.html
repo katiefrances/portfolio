@@ -1,79 +1,128 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Katie Frances - Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
-    <link rel="stylesheet" href="css/main.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Katie Frances - Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/fontawesome-all.css">
+        <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
-<body>
-    
+
+    <body data-spy="scroll" data-target="#projects"></body>
     <!-- Begin Nav -->
     <!-- Left links on Navbar -->
-<nav class="navbar fixed-top">
-        <div class="d-flex justify-content-start">
-        <a href="#" class="d-inline-block align-top left-nav">Home
-        </a>
-        <a href="#projects" class="d-inline-block align-top left-nav">Project
-        </a>
-    </div>
-
-        <!-- Icons on the right to replace the Hamburger -->
-        <ul class="navbar-nav d-flex justify-content-start">
-            <li>
-                <a class="nav-link" href="http://github.com/katiefrances">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/katie-frances-61b580107/">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://twitter.com/loveribs">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="http://medium.com/@katiedev">
-                    <i class="fab fa-medium-m"></i>
-                </a>
-            </li>
-            <li class="nav-item right-icons">
-                <a class="nav-link" href="c">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <div class="container-fluid">
-            <div class="row one">
-                <div class="col">
-                    <h1 class="display-1 header">Hi, I'm Katie!</h1>
-                </div>
+    <nav class="navbar fixed-top">
+            <div class="d-flex justify-content-start">
+                <a href="#" class="d-inline-block align-top left-nav">Home</a>
+                <a href="#projects" class="d-inline-block align-top left-nav">Projects</a>
             </div>
 
-            <div class="row two">
-                <div class="col-md-3 col-sm-4 col-12 col-lg-2 text-center">
-                    <img src="img/me.jpg" class="usr-img">
+            <!-- Icons on the right to replace the Hamburger -->
+            <ul class="navbar-nav d-flex justify-content-start">
+                <li>
+                    <a class="nav-link" href="http://github.com/katiefrances">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/katie-frances-61b580107/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://medium.com/@katiedev">
+                        <i class="fab fa-medium-m"></i>
+                    </a>
+                </li>
+                <li class="nav-item right-icons">
+                    <a class="nav-link" href="http://instagram.com/coder_grrl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- START PAGE CONTENT -->
+        <div class="container-fluid">
+            
+            <!-- HEADER IMG -->
+                <div class="row one">
+                    <div class="col">
+                        <h1 class="display-1 header">Hi, I'm Katie!</h1>
+                    </div>
+                </div>
+
+                <!-- ABOUT ME -->
+                <div class="row two">
+                    <div class="col-md-3 col-sm-4 col-12 col-lg-2 text-center">
+                        <img src="img/me.jpg" class="usr-img" alt="An Image of Me">
+                    </div>
+                    
+                    <div class="col-md-9 col-sm-8 col-12 col-lg-10">
+                        <p class="lead d-flex align-items-left">I'm a student at Coder Academy in Sydney who loves technology, coding &amp; design, &amp; 
+                            I'm also a huge nerd! I love making beautiful, responsive designs &amp; helping people to solve problems!
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- WORK HISTORY -->
+                <!-- <div class="row work-history" id="contact">
+                        <h4 class="display-4">Work History</h4>
+                        <p class="lead">I have mostly worked in the retail &amp; hospitality sectors, up until my last position at iiNet.
+                            <! <p class="font-weight-bold">iiNet - Billing &amp; Technical Support CSR</p>
+                            As a Level One technical support CSR I learnt obout how the internet works from an ISP perspective, and how the technology (sometimes) works to deliver the end user an internet connection.
+                            And also how to troubleshoot connections when they don't work which has taught me immensely about how things work and how technology as a whole, functions.
+                        </p> -->
+
+                        <!-- </div> --> 
+
+
+
+                <!-- PROJECTS -->
+            <div class="row three projects text-center align" id="projects">
+                <div class="col-md-6 col-sm-6 col-xs-6 gallery-container">
+                    <img src="img/bowie-site.jpg" alt="David Bowie Site" class="image">
+                    <div class="middle">
+                        <div class="text">
+                            <a href="https://codepen.io/katiefrances/pen/eEjQNN">Codepen</a>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="col-md-9 col-sm-8 col-12 col-lg-10">
-                    <p class="lead d-flex align-items-left">I'm a student at Coder Academy in Sydney who loves technology, coding &amp; design, &amp; I'm also a huge nerd! I love making beautiful, responsive designs &amp; helping people to solve problems.</p>
+                <div class="col-md-6 col-sm-6 col-xs-6 gallery-container">
+                    <img src="img/bowie-site.jpg" alt="Doggo Terminal Quiz" class="image">
+                    <div class="middle">
+                        <div class="text">
+                            <a href="https://codepen.io/katiefrances/pen/eEjQNN">GitHub</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="row languages">
                 <div class="col-md-12">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
+                    <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                    <p>
+                        <b>David Bowie Tribute</b>
+                        view on codepen or github
+                    </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                    <p>
+                        <b>Doggo Terminal Quiz</b>
+                        view on github
+                </div>
+                </div>
+
+                </div>
+
+                <div class="col-md-12 ">
+                    <ul class="list-inline languages-cont">
+                        <li class="list-inline-item languages">
                             <i class="icon-html5-alt"></i>
                         </li>
                         <li class="list-inline-item">
@@ -89,85 +138,56 @@
                             <i class="icon-ruby-on-rails"></i>
                         </li>
                     </ul>
+
                 </div>
             </div>
 
-            <div class="row three centered-lead text-center" id="projects">
-                <div class="col-12"><h2 class="display-2">Projects</h2></div>
-                    <div class="col">
-                        <img src="img/proj-1.jpg">
+
+                <!-- / GALLERY -->
+
+
+
+            </div> <!-- / Container Fluid -->
+            
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <p class="credit">&copy;&nbsp;Katie&nbsp;Frances&nbsp;2018</p>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <ul class="list-group">
+                                <li>
+                                    <a href="http://github.com/katiefrances" target="_blank"><i class="fab fa-github"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/katie-frances-61b580107/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://twitter.com/loveribs" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://medium.com/@katiedev" target="_blank"><i class="fab fa-medium-m"></i></a>
+                                </li>
+                                <li>
+                                    <a href="http://instagram.com/coder_grrl" target="_blank"><i class="fab fa-instagram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col ">
-                        <img src="img/proj-1.jpg">
-                    </div>
-            </div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-    Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Modal Title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-    <div class="modal-body bg-transparent text-center">
-                <img src="img/300x300.png">
-            </div>
-            <!-- <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
-            </div> -->
-        </div>
-    </div>
-</div>
-
-
-        </div>
-    <!-- / Container Fluid -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <p class="credit">&copy;&nbsp;Katie&nbsp;Frances&nbsp;2018</p>
                 </div>
-                <div class="col-md-6 text-center">
-                    <ul class="list-group">
-                        <li>
-                            <a href="http://github.com/katiefrances"><i class="fab fa-github" target="_blank"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/katie-frances-61b580107/"><i class="fab fa-linkedin-in" target="_blank"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://twitter.com/loveribs"><i class="fab fa-twitter" target="_blank"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://medium.com/@katiedev"><i class="fab fa-medium-m" target="_blank"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://instagram.com/coder_grrl"><i class="fab fa-instagram" target="_blank"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+            </footer>
 
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
+            <!-- Scripts -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    </body>
 </html>
