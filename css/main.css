@@ -29,10 +29,9 @@ a:hover {
 }
 
 .navbar a {
-    color: #555;
+    color: #eee;
     font-size: 150%;    
     text-transform: uppercase;
-    /* font-family: 'Slabo 27px', serif; */
     font-size: 80%;
     letter-spacing: 2px;
 }
@@ -54,7 +53,7 @@ a:hover {
 }
 
 .left-nav a {
-        text-decoration: none;
+    text-decoration: none;
 }
 
 
@@ -79,6 +78,15 @@ a:hover {
 
   }
 
+  .one .col {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      /* Black background with 0.5 opacity */
+        height: 100vh;
+        margin-left: -20px;
+        margin-top: -20px;
+  }
+
 .one h1 {
     margin: auto;
     text-align: center;
@@ -86,7 +94,7 @@ a:hover {
     top: 50%;
     margin-top: -57px;
     color: #fff;
-    text-shadow: 6px -1px 11px #fff;
+    text-shadow: 12px 01px 11px #000;
 
 }
 
@@ -124,8 +132,13 @@ a:hover {
     }
 }
 
+
+.modal-body {
+    background: #111;
+}
+
 .three {
-    background:#444;
+    background: transparent;
 }
 
 .three img {
@@ -134,11 +147,16 @@ a:hover {
 }
 
 .languages {
-    background:#666;
+    background:#f9f9f9;
 }
 
-.languages li {
+.languages ul {
+
+    font-size: 300%;
     text-align: center;
+    margin: -10px;
+    color: #999;
+
 }
 
 .footer {
@@ -155,5 +173,4 @@ a:hover {
 
 .credit {
     padding-bottom: 5px;
-    /* margin: 30px; */
 }

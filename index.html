@@ -8,20 +8,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-mfizz-2.4.1/font-mfizz.css">
     <link rel="stylesheet" href="css/main.css">
     </head>
 <body>
     
     <!-- Begin Nav -->
-
     <!-- Left links on Navbar -->
 <nav class="navbar fixed-top">
         <div class="d-flex justify-content-start">
         <a href="#" class="d-inline-block align-top left-nav">Home
-            <!-- <span class="sr-only">(current)</span> -->
         </a>
         <a href="#projects" class="d-inline-block align-top left-nav">Project
-            <!-- <span class="sr-only">(current)</span> -->
         </a>
     </div>
 
@@ -58,7 +56,7 @@
     <div class="container-fluid">
             <div class="row one">
                 <div class="col">
-                    <h1 class="display-1 header">Hello!</h1>
+                    <h1 class="display-1 header">Hi, I'm Katie!</h1>
                 </div>
             </div>
 
@@ -68,28 +66,69 @@
                 </div>
                 
                 <div class="col-md-9 col-sm-8 col-12 col-lg-10">
-                    <p class="lead d-flex align-items-left">Hi, I'm Katie! I'm a student at Coder Academy in Sydney. I love technology, coding &amp; design, &amp; I'm also a huge nerd! I love making beautiful, responsive designs &amp; solving problems.</p>
+                    <p class="lead d-flex align-items-left">I'm a student at Coder Academy in Sydney who loves technology, coding &amp; design, &amp; I'm also a huge nerd! I love making beautiful, responsive designs &amp; helping people to solve problems.</p>
                 </div>
             </div>
 
-            <div class="row languages text-center">
-            <ul class="list-inline text-center">
-                    <li class="list-inline-item">Lorem ipsum</li>
-                    <li class="list-inline-item">Phasellus iaculis</li>
-                    <li class="list-inline-item">Nulla volutpat</li>
-                </ul>
+            <div class="row languages">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <i class="icon-html5-alt"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="icon-css3"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="icon-javascript"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="icon-ruby"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="icon-ruby-on-rails"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <div class="row three centered-lead text-center" id="projects">
-                <div class="col-12"><h1 class="display-1">Projects</h1></div>
-
-                <div class="col col-md-6 col-12">
-                    <img src="img/proj-1.jpg">
-                </div>
-                <div class="col col-md-6 col-12">
-                    <img src="img/proj-1.jpg">
-                </div>
+                <div class="col-12"><h2 class="display-2">Projects</h2></div>
+                    <div class="col">
+                        <img src="img/proj-1.jpg">
+                    </div>
+                    <div class="col ">
+                        <img src="img/proj-1.jpg">
+                    </div>
             </div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal Title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+    <div class="modal-body bg-transparent text-center">
+                <img src="img/300x300.png">
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+
         </div>
     <!-- / Container Fluid -->
 
