@@ -30,9 +30,9 @@ a:hover {
 
 .navbar a {
     color: #555;
-    font-size: 150%;
+    font-size: 150%;    
     text-transform: uppercase;
-    font-family: 'Slabo 27px', serif;
+    /* font-family: 'Slabo 27px', serif; */
     font-size: 80%;
     letter-spacing: 2px;
 }
@@ -144,6 +144,8 @@ a:hover {
 .footer {
     background: #111;
     padding: 50px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 .footer ul,li {
@@ -153,4 +155,5 @@ a:hover {
 
 .credit {
     padding-bottom: 5px;
+    /* margin: 30px; */
 }
