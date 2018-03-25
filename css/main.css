@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: light;
+    font-size: 14px;
 }
 
 a, a:link, a:active {
@@ -234,10 +235,17 @@ a:hover {
 /* Work History */
 .work-history {
     background-color: #f4f4f4;
-    height: 50vh;
-        display: flex;
+    /* height: 50vh; */
+    display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+@media screen and  (min-width: 50px) and (max-width: 567px) {
+    .work-history, .study {
+        font-size: 12px;
+    }
 
 }
 
@@ -271,7 +279,6 @@ a:hover {
     color: #222;
     text-align: center;
 }
-
 
 
 /* Footer */
