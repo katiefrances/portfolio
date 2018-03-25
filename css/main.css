@@ -24,9 +24,7 @@ a:hover {
     text-align: center
 }
 
-.active {
-     background-color: red;
-}
+
 
 /* Bootstrap Overrides */
 .row {
@@ -241,6 +239,13 @@ a:hover {
     align-items: center;
     justify-content: center;
 
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #222;
+    border-color: #222222;
 }
 
 .title {
