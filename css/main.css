@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
 
 /* Standard Styling */
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: light;
@@ -25,7 +24,6 @@ a:hover {
 }
 
 /* Bootstrap Overrides */
-
 .row {
     padding: 20px;
 }
@@ -41,9 +39,7 @@ a:hover {
 
 /* Navigation */
 .navbar {
-    background-color:#111;
-    /* font-size: 50%; */
-    
+    background-color:#111;  
 }
 
 .navbar a {
@@ -81,7 +77,6 @@ a:hover {
 
 
 /* Header Img with text overlay */
-
 .one {
     background-image: url(../img/code.jpg);
     background-repeat: no-repeat;
@@ -111,7 +106,6 @@ a:hover {
 }
 
 /* User Info with User Image */
-
 .two {
     background: #e1dcd8;
     text-align: left;
@@ -173,7 +167,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    /* min-width: 50%; */
+    height: 100vh;
 }
 
 .three img {
@@ -207,7 +201,6 @@ a:hover {
     transition: .5s ease;
     backface-visibility: hidden;
 }
-
 
 .middle {
     transition: .5s ease;
@@ -247,7 +240,11 @@ a:hover {
 
 /* Work History */
 .work-history {
-    background-color: red;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+        height: 50vh;;
     /* height: 100vh; */
 
 }
