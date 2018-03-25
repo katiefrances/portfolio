@@ -167,7 +167,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    height: 100vh;
+
 }
 
 .three img {
@@ -182,7 +182,7 @@ a:hover {
     /* max-width: 10%; */
     margin-bottom: 20px;
     padding: 20px;
-    
+
     }
 }
 
@@ -240,11 +240,7 @@ a:hover {
 
 /* Work History */
 .work-history {
-        display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #444;
-        height: 50vh;;
     /* height: 100vh; */
 
 }
