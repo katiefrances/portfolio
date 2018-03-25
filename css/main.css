@@ -24,6 +24,10 @@ a:hover {
     text-align: center
 }
 
+.active {
+     background-color: red;
+}
+
 /* Bootstrap Overrides */
 .row {
     padding: 20px;
@@ -147,22 +151,6 @@ a:hover {
 }
 
 
-/* Language Icons */
-.languages-cont {
-    background-color: #02acae;    
-    font-size: 180%;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.languages ul {
-    color: #222;
-    text-align: center;
-}
-
-
 /*  PROJECTS */
 
 .three {
@@ -249,6 +237,9 @@ a:hover {
 .work-history {
     background-color: #f4f4f4;
     height: 50vh;
+        display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -259,6 +250,24 @@ a:hover {
     font-weight: 300;
 
 }
+
+
+/* Language Icons */
+.languages-cont {
+    background-color: #02acae;    
+    font-size: 180%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages ul {
+    color: #222;
+    text-align: center;
+}
+
+
 
 /* Footer */
 .footer {
