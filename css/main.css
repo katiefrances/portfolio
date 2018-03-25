@@ -4,7 +4,7 @@
 /* Standard Styling */
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: light;
+
     font-size: 14px;
 }
 
@@ -18,7 +18,7 @@ a:hover {
    border-bottom: 1px solid #444;
    margin-bottom:-1px;
    color: #fff;
-    text-decoration: none;
+  text-decoration: none;
 
 }
 .list-inline {
@@ -235,11 +235,15 @@ a:hover {
 /* Work History */
 .work-history {
     background-color: #f4f4f4;
-    /* height: 50vh; */
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+.study {
+    height: 30vh;
 }
 
 @media screen and  (min-width: 50px) and (max-width: 567px) {
@@ -261,7 +265,6 @@ a:hover {
     font-size: 200%;
     border-bottom: 0.5px solid #222;
     font-weight: 300;
-
 }
 
 
