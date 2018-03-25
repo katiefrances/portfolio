@@ -157,8 +157,7 @@ a:hover {
 /* Language Icons */
 .languages-cont {
     background-color: #02acae;    
-    font-size: 140%;
-
+    font-size: 150%;
     display: inline-block;
     display: flex;
     align-items: center;
@@ -167,9 +166,8 @@ a:hover {
 
 .languages ul {
     color: #999;
-        text-align: center;
+     text-align: center;
 }
-
 
 
 /*  PROJECTS */
@@ -178,6 +176,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
     /* min-width: 50%; */
 }
 
@@ -192,12 +191,12 @@ a:hover {
    .three img {
     /* max-width: 10%; */
     margin-bottom: 20px;
-    /* /* padding: 20px; * */
+    padding: 20px;
     
     }
 }
 
-
+/* Gallery Images */
 .gallery-container {
     position: relative;
     width: 100%;
@@ -212,7 +211,6 @@ a:hover {
     transition: .5s ease;
     backface-visibility: hidden;
 }
-
 
 
 .middle {
@@ -235,14 +233,23 @@ a:hover {
 }
 
 .text {
-    background-color: #222;
+    background-color: #02acae;
     color: white;
     font-size: 13px;
     padding: 16px 32px;
 }
 
+.text a {
+    color: #111;
+    font-size: 50px;
+    border: 0px;
+}
 
-/* Contact */
+.text a:hover {
+    color: white;
+}
+
+/* Work History */
 .work-history {
     background-color: red;
     /* height: 100vh; */
@@ -261,8 +268,4 @@ a:hover {
 .footer ul,li {
     display: inline;
     margin: 10px;
-}
-
-.credit {
-    padding-bottom: 5px;
 }
