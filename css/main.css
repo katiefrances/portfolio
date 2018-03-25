@@ -43,13 +43,14 @@ a:hover {
 .navbar {
     background-color:#111;
     /* font-size: 50%; */
-    font-size: 13px;
+    
 }
 
 .navbar a {
     color: #cacaca;  
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-size: 70%;
 }
 .navbar a:hover {
     color: #02acae;
@@ -72,17 +73,12 @@ a:hover {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
     .navbar {
-        font-size: 50%;
+        font-size: 60%;
     }
 }
 
-@media only screen (max-width: 768px) {
-    .footer {
-        font-size: 50%;
-    }
-}
 
 /* Header Img with text overlay */
 
@@ -157,7 +153,7 @@ a:hover {
 /* Language Icons */
 .languages-cont {
     background-color: #02acae;    
-    font-size: 150%;
+    font-size: 180%;
     display: inline-block;
     display: flex;
     align-items: center;
@@ -165,8 +161,8 @@ a:hover {
 }
 
 .languages ul {
-    color: #999;
-     text-align: center;
+    color: #222;
+    text-align: center;
 }
 
 
