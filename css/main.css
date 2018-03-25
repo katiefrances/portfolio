@@ -156,19 +156,20 @@ a:hover {
 
 /* Language Icons */
 .languages-cont {
-
+    background-color: #02acae;    
     font-size: 140%;
-    text-align: center;
-    background-color: #02acae;
+
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .languages ul {
-
-
-    text-align: center;
-    /* margin: -10px; */
     color: #999;
+        text-align: center;
 }
+
 
 
 /*  PROJECTS */
