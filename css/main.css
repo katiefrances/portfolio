@@ -167,7 +167,11 @@ a:hover {
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
 
+.three .title {
+       text-align: right;
+    font-size: 200%; 
 }
 
 .three img {
@@ -241,7 +245,14 @@ a:hover {
 /* Work History */
 .work-history {
     background-color: #444;
-    /* height: 100vh; */
+    height: 50vh;
+
+}
+
+.title {
+    text-align: right;
+    font-size: 200%;
+    border-bottom: 1px solid #222;
 
 }
 
