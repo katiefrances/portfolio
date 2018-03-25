@@ -5,7 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
 
-    font-size: 14px;
+    font-size: 15px;
 }
 
 a, a:link, a:active {
@@ -75,7 +75,7 @@ a:hover {
 
 @media only screen and (max-width: 320px) {
     .navbar {
-        font-size: 60%;
+        font-size: 70%;
     }
 }
 
@@ -87,7 +87,6 @@ a:hover {
     background-size: cover;
     height: 100vh;
     background-position: center center; 
-
   }
 
   .one .col {
@@ -127,13 +126,31 @@ a:hover {
 }
 
 
+
 @media only screen and (min-width: 768px) {
     .two .lead {
         background-color: #a7136c;
         color: #eee;
-        font-size: 100%;
+        font-size: 120%;
     }
 }
+
+@media only screen and (min-width: 1170px) {
+    .two .lead {
+
+        font-size: 130%;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    *{
+
+        font-size: 100%;
+        text-align: center;
+    }
+}
+
 
 @media only screen and (min-width: 50px) and (max-width: 768px) {
     .usr-img {
@@ -239,7 +256,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+@media screen and (max-width: 360px;) {
+.list-group-item.active {
+    font-size: 10px;
+}
 }
 
 .study {
