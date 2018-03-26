@@ -245,10 +245,17 @@ a:hover {
 /* Work History */
 .work-history {
     background-color:#eee;
-    height: 40vh;
+    /* height: 50vh; */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 360px) {
+.work-history {
+    font-size: 10px;
+    }   
 }
 
 @media screen and (max-width: 360px) {
@@ -258,7 +265,7 @@ a:hover {
 }
 
 .study {
-    height: 30vh;
+    height: 50vh;
     background-color: #242233;
     color: #eee;
 }
@@ -294,8 +301,16 @@ a:hover {
     padding: 20px;
 }
 
+@media screen and (min-width: 50px) and (max-width: 567px) {
+    .projects{
+        font-size: 12px;
+    }
+
+}
+
 .title.dark {
     color: #222;
+        font-size: 200%;
 }
 
 
